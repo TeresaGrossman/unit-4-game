@@ -15,8 +15,9 @@ header{
 }
 
 #instructions{
-    color: blue;    
-    border: 4px purple  solid;
+    color: blue; 
+    background-color: rgba(187,187,255,.8);   
+    margin: 10px;
     width: 100%;
     margin: auto;
     padding: 10px;
@@ -24,15 +25,17 @@ header{
 
 #randomNumber{
     color: blue;
+    background-color: rgba(187,187,255,.8);
     width: 300px;
-    border: 4px purple solid;
+    margin: 10px;
     padding: 5px;
 }
 
 #winLose{
     color: blue;
+    background-color: rgba(187,187,255,.8);
     width: 200px;
-    border: 4px purple solid;
+    margin: 10px;
     padding: 5px;
 }
 #leftonly{
@@ -40,13 +43,14 @@ header{
 }
 #userScore{
     color: blue;
+    background-color: rgba(187,187,255,.8);
     width: 300px;
-    border: 4px purple solid;
+    margin: 10px;
     padding: 5px;
 }
 
 #guess{
-    color: blue;
+    color:black;
 }
 
 .crystal-button{
