@@ -1,0 +1,55 @@
+body{
+    font-size: 17px;
+    font-family: arial;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2em;
+}
+header{
+    color: blue;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px rgb(74, 8, 136) solid;
+    margin-bottom: 10px;
+}
+
+#instructions{
+    color: blue;    
+    border: 4px purple  solid;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+#randomNumber{
+    color: blue;
+    width: 300px;
+    border: 4px purple solid;
+    padding: 5px;
+}
+
+#winLose{
+    color: blue;
+    width: 200px;
+    border: 4px purple solid;
+    padding: 5px;
+}
+#leftonly{
+    display: flex;
+}
+#userScore{
+    color: blue;
+    width: 300px;
+    border: 4px purple solid;
+    padding: 5px;
+}
+
+#guess{
+    color: blue;
+}
+
+.crystal-button{
+    width: 300px;
+    height: 300px;
+}
