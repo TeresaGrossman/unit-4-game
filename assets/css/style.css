@@ -7,16 +7,19 @@ body{
     line-height: 1.2em;
 }
 header{
+    font-size: 25px;
     color: blue;
+    background-color: rgba(187,187,255,.9);
     padding: 20px;
     text-align: center;
-    border-bottom: 4px rgb(74, 8, 136) solid;
+    border: 8px rgb(74, 8, 136) solid;
     margin-bottom: 10px;
 }
 
 #instructions{
     color: blue; 
-    background-color: rgba(187,187,255,.8);   
+    background-color: rgba(187,187,255, .9); 
+    border: 6px rgb(74, 8, 136) solid;  
     margin: 10px;
     width: 100%;
     margin: auto;
@@ -25,7 +28,8 @@ header{
 
 #randomNumber{
     color: blue;
-    background-color: rgba(187,187,255,.8);
+    background-color: rgba(187,187,255,.9);
+    border: 6px rgb(74, 8, 136) solid; 
     width: 300px;
     margin: 10px;
     padding: 5px;
@@ -33,7 +37,8 @@ header{
 
 #winLose{
     color: blue;
-    background-color: rgba(187,187,255,.8);
+    background-color: rgba(187,187,255,.9);
+    border: 6px rgb(74, 8, 136) solid; 
     width: 200px;
     margin: 10px;
     padding: 5px;
@@ -43,7 +48,8 @@ header{
 }
 #userScore{
     color: blue;
-    background-color: rgba(187,187,255,.8);
+    background-color: rgba(187,187,255,.9);
+    border: 6px rgb(74, 8, 136) solid; 
     width: 300px;
     margin: 10px;
     padding: 5px;
@@ -54,6 +60,7 @@ header{
 }
 
 .crystal-button{
+    border: 4px rgb(74, 8, 136) solid; 
     width: 300px;
     height: 300px;
 }
